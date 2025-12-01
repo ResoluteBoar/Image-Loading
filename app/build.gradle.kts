@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.example.myapplication"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.myapplication"
@@ -51,7 +51,6 @@ android {
 
 dependencies {
     implementation("com.github.bumptech.glide:glide:4.15.1")
-
     implementation("io.coil-kt:coil:2.6.0")
     implementation("io.coil-kt:coil-compose:2.6.0")
 
